@@ -1,13 +1,13 @@
-package com.vnpt.environmentalresourcebase.controller;
+package com.environmentalresourcebase.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.vnpt.environmentalresourcebase.exception.ResourceNotFoundException;
-import com.vnpt.environmentalresourcebase.model.Note;
-import com.vnpt.environmentalresourcebase.repository.NoteRepository;
+import com.environmentalresourcebase.exception.ResourceNotFoundException;
+import com.environmentalresourcebase.model.Note;
+import com.environmentalresourcebase.repository.NoteRepository;
 
 import javax.validation.Valid;
 import java.util.List;

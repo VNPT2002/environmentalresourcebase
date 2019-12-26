@@ -1,4 +1,4 @@
-package com.vnpt.environmentalresourcebase.controller;
+package com.environmentalresourcebase.controller;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vnpt.environmentalresourcebase.exception.ResourceNotFoundException;
-import com.vnpt.environmentalresourcebase.model.Employee;
-import com.vnpt.environmentalresourcebase.repository.EmployeeRepository;
+import com.environmentalresourcebase.exception.ResourceNotFoundException;
+import com.environmentalresourcebase.model.Employee;
+import com.environmentalresourcebase.repository.EmployeeRepository;
 
 @RestController
 public class EmployeeRestController {

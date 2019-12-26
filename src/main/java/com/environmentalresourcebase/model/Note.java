@@ -1,4 +1,4 @@
-package com.vnpt.environmentalresourcebase.model;
+package com.environmentalresourcebase.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

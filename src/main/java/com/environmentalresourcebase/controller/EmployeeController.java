@@ -1,4 +1,4 @@
-package com.vnpt.environmentalresourcebase.controller;
+package com.environmentalresourcebase.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

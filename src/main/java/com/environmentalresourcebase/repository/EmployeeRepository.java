@@ -1,9 +1,9 @@
-package com.vnpt.environmentalresourcebase.repository;
+package com.environmentalresourcebase.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.vnpt.environmentalresourcebase.model.Employee;
+import com.environmentalresourcebase.model.Employee;
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
